@@ -11,6 +11,7 @@
 #X obj 399 124 my_cheby;
 #X obj 433 540 my_mixer;
 #X obj 411 540 my_mixer;
+#X obj 797 127 my_16_step_seq;
 #X connect 0 0 9 0;
 #X connect 0 1 9 1;
 #X connect 2 0 11 0;

@@ -203,7 +203,7 @@
 #X obj 183 315 *~ 0;
 #X obj 145 315 *~ 0;
 #X obj 266 186 hsl 150 15 0 127 0 0 empty empty empty -2 -8 0 10 -228856
--1 -1 0 1;
+-1 -1 9900 1;
 #X obj 420 186 bng 15 250 50 0 empty empty empty 0 -6 0 8 -228856 -1
 -1;
 #X msg 420 206 0;
@@ -227,6 +227,7 @@
 1;
 #X obj 558 361 loadbang;
 #X msg 556 384 1;
+#X text 423 185 r;
 #X connect 0 0 2 0;
 #X connect 0 0 60 0;
 #X connect 3 0 59 0;

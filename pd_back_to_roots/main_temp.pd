@@ -1,5 +1,5 @@
-#N canvas 2 23 1438 850 10;
-#X obj 127 -106 granular;
+#N canvas 262 23 1438 850 10;
+#X obj 368 -112 granular;
 #X obj 128 693 output~;
 #X obj 126 151 my_del;
 #X obj 127 546 my_mixer;

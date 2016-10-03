@@ -1,0 +1,43 @@
+#N canvas 0 22 450 300 10;
+#X msg 200 81 open \$1;
+#X symbolatom 12 103 15 0 0 0 - - -, f 15;
+#X msg 256 115 start;
+#X msg 262 141 stop;
+#X obj 180 154 list;
+#X obj 107 102 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 178 176 route list;
+#X obj 178 199 writesf~ 2;
+#X obj 16 20 inlet~;
+#X obj 58 20 inlet~;
+#X obj 12 120 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 30 119 start;
+#X obj 12 137 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 30 136 stop;
+#X obj 330 153 metro 1000;
+#X obj 329 130 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 326 99 1;
+#X msg 358 100 0;
+#X obj 91 121 bng 30 250 50 0 empty empty empty 17 7 0 10 -228856 -261234
+-1;
+#X connect 0 0 4 1;
+#X connect 1 0 0 0;
+#X connect 2 0 7 0;
+#X connect 2 0 16 0;
+#X connect 3 0 7 0;
+#X connect 3 0 17 0;
+#X connect 4 0 6 0;
+#X connect 5 0 4 0;
+#X connect 6 0 7 0;
+#X connect 8 0 7 0;
+#X connect 9 0 7 1;
+#X connect 10 0 2 0;
+#X connect 12 0 3 0;
+#X connect 14 0 18 0;
+#X connect 15 0 14 0;
+#X connect 16 0 15 0;
+#X connect 17 0 15 0;
+#X coords 0 -1 1 1 115 55 2 10 100;
